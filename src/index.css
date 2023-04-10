@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  /* color-scheme: dark; */
+}
+.height-100 {
+  height: 100%;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.blue-overlay {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+.video-state {
+  position: relative;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.vedioplayerone {
+  object-fit: cover;
+}
+
+.gray-white {
+  color: #ccc;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+
+.trashand {
+  font-family: "TrashHand", sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-size-giant {
+  font-size: 4rem;
+}
+
+.font-size-largest {
+  font-size: 2.5rem;
+}
+
+.z-88 {
+  z-index: 88;
+}
+.pb-full {
+  padding-bottom: 100%;
+}
+
+/* hide search icon on search focus */
+.search-bar:focus + .fa-search {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .post:hover .overlay {
+    display: block;
+  }
+}
